@@ -30,12 +30,7 @@ export default function Footer() {
         </div>
 
         {/* CTA */}
-        <CTAButton>תיאום תור לטיול</CTAButton>
-
-        {/* Copyright */}
-        <p className="text-gray-500 text-sm">
-          © 2026 דוגווקינג תל אביב. כל הזכויות שמורות.
-        </p>
+        <CTAButton>תיאום טיול</CTAButton>
       </div>
     </footer>
   );

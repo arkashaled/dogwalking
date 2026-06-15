@@ -28,7 +28,17 @@ export default function Hero() {
         <p className="text-xl sm:text-2xl text-white/90 mb-10 leading-relaxed drop-shadow">
           טיולים ושמירה ביתית לכלב שלכם — בכל רחבי תל אביב
         </p>
-        <CTAButton className="text-xl px-10 py-5">תיאום תור לטיול</CTAButton>
+        <div className="flex flex-wrap justify-center gap-4">
+          <CTAButton className="text-xl px-10 py-5">תיאום טיול</CTAButton>
+          <a
+            href="https://wa.me/972547315598"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-white/20 hover:bg-white/30 border-2 border-white text-white font-bold text-xl px-10 py-5 rounded-2xl shadow-lg transition-colors duration-200"
+          >
+            תיאום שיחה
+          </a>
+        </div>
       </div>
     </section>
   );

@@ -51,7 +51,7 @@ export default function ServiceSection({
             </h2>
             <p className="text-gray-700 text-lg leading-relaxed">{description}</p>
             <div>
-              <CTAButton>תיאום תור לטיול</CTAButton>
+              <CTAButton>תיאום טיול</CTAButton>
             </div>
           </div>
         </div>
