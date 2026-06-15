@@ -26,7 +26,7 @@ export default function Hero() {
           בתל אביב
         </h1>
         <p className="text-xl sm:text-2xl text-white/90 mb-10 leading-relaxed drop-shadow">
-          טיולים אוהבים ושמירה ביתית לכלב שלכם — בכל רחבי תל אביב
+          טיולים ושמירה ביתית לכלב שלכם — בכל רחבי תל אביב
         </p>
         <CTAButton className="text-xl px-10 py-5">תיאום תור לטיול</CTAButton>
       </div>
