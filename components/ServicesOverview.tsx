@@ -3,7 +3,7 @@ export default function ServicesOverview() {
     <section className="bg-teal-50 py-16 px-6">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-teal-900 text-center mb-12">
-          מה אנחנו מציעים?
+          מה אני מציע?
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
