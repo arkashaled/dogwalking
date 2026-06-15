@@ -26,7 +26,7 @@ export default function ServicesOverview() {
               דוגסיטינג
             </h3>
             <p className="text-gray-700 text-lg leading-relaxed">
-              שמירה חמה ואוהבת על הכלב שלכם — אצלכם בבית או אצלנו בתל אביב,
+              שמירה חמה ואוהבת על הכלב שלכם — אצלכם בבית או אצלי בתל אביב,
               בסביבה מוכרת ובטוחה.
             </p>
           </div>
