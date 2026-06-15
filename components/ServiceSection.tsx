@@ -1,5 +1,6 @@
 import Image from "next/image";
 import CTAButton from "./CTAButton";
+import { CALENDLY_CALL_URL } from "@/lib/config";
 
 interface ServiceSectionProps {
   title: string;
@@ -50,8 +51,9 @@ export default function ServiceSection({
               {title}
             </h2>
             <p className="text-gray-700 text-lg leading-relaxed">{description}</p>
-            <div>
+            <div className="flex flex-wrap gap-4">
               <CTAButton>תיאום טיול</CTAButton>
+              <CTAButton href={CALENDLY_CALL_URL} className="bg-teal-700 hover:bg-teal-800">תיאום שיחה</CTAButton>
             </div>
           </div>
         </div>

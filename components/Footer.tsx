@@ -1,4 +1,5 @@
 import CTAButton from "./CTAButton";
+import { CALENDLY_CALL_URL } from "@/lib/config";
 
 export default function Footer() {
   return (
@@ -30,7 +31,10 @@ export default function Footer() {
         </div>
 
         {/* CTA */}
-        <CTAButton>תיאום טיול</CTAButton>
+        <div className="flex flex-wrap justify-center gap-4">
+          <CTAButton>תיאום טיול</CTAButton>
+          <CTAButton href={CALENDLY_CALL_URL} className="bg-teal-600 hover:bg-teal-700">תיאום שיחה</CTAButton>
+        </div>
       </div>
     </footer>
   );
