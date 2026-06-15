@@ -18,11 +18,11 @@ export default function Footer() {
         <div className="flex flex-col gap-2 text-gray-300 text-base">
           <p>
             📞 טלפון:{" "}
-            <span className="text-white font-medium">050-000-0000</span>
+            <span className="text-white font-medium">054-731-5598</span>
           </p>
           <p>
             ✉️ אימייל:{" "}
-            <span className="text-white font-medium">info@dogwalker-tlv.co.il</span>
+            <span className="text-white font-medium">arkashaled2@gmail.com</span>
           </p>
           <p className="text-gray-400 text-sm">
             פעיל בכל אזורי תל אביב, 7 ימים בשבוע
