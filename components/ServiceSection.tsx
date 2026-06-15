@@ -38,7 +38,7 @@ export default function ServiceSection({
                 src={imageSrc}
                 alt={imageAlt}
                 fill
-                className="object-cover"
+                className="object-cover object-top"
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
